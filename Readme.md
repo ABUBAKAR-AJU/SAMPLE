@@ -18,3 +18,10 @@ const name= ()=>{
 - bullet1s2
 
 1. number
+
+const name= ()=>{
+    console.log("this is a social code")
+}
+const name= ()=>{
+    console.log("this is a social code")
+}
