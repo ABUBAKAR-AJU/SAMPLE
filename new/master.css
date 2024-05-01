@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    height: 100vh;
+    width: 100vw;
+    grid-template-areas: 'nav nav nav'
+        'head head head'
+        'side cont cont'
+        'aside1 aside2 aside3'
+        'foot foot foot'
+    ;
+    grid-template-rows: 50px 50px 1fr 200px 50px;
+
+}
+
+#nav,
+#head,
+#sidebar,
+#main,
+#aside1,
+#aside2,
+#aside3,
+#foot {
+    padding: 20px;
+    background-color: #eeda99;
+    border: 1px solid white;
+}
+
+#nav {
+    grid-area: nav;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#head {
+    grid-area: head;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sidebar {
+    grid-area: side;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main {
+    grid-area: cont;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#aside1 {
+    grid-area: aside1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#aside2 {
+    grid-area: aside2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#aside3 {
+    grid-area: aside3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#foot {
+    grid-area: foot;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
